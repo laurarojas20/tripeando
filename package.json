@@ -1,0 +1,28 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+
+    "build-css": "sass scss/origen.scss css/estilos.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laurarojas20/tripeando.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laurarojas20/tripeando/issues"
+  },
+  "homepage": "https://github.com/laurarojas20/tripeando#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "sass": "^1.49.7"
+  }
+}
