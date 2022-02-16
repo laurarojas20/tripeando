@@ -1,0 +1,202 @@
+@import "texto";
+
+
+/****** AREAS ******/
+
+body{
+	background-color: #353b48;
+}
+
+main{
+	width: 100%; 
+}
+
+
+header{
+	grid-area: header;
+	width: 100%;
+	height: 15%;
+	padding-left: 1%;
+	background-color: rgba(0, 0, 0, 0.7);
+	color: $rosa;	
+}
+
+nav{
+	grid-area: nav;
+	width: 100%;
+	font-family: $pathway;
+	float: right;
+}
+
+section{
+	grid-area: seccion;
+	font-family: $pathway;
+	padding: 2%;
+}
+
+article{
+	grid-area: article;
+	padding: 2%;
+	font-family: $oswald;
+}
+
+aside{
+	grid-area: publi;
+	padding: 2%;
+	font-family: $pathway;
+	background-color: darkgrey;
+}
+
+footer{
+	grid-area: footer;
+	padding: 2%;
+	background-color: #000000;
+	color: $blanco;
+	font-family: $pathway;
+
+	a{
+		color: $rosa;
+	}
+}
+
+
+
+/****** FONDO INDEX ******/
+
+.fondoIndex{
+	height: 85vh;
+	background-image: url(../imagenes/fondito.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+
+
+
+
+/****** NAV ******/
+
+.bienvenidx{	
+	padding: 4%;
+	font-family: $oswald;
+	text-align: center;
+}
+
+.logoFlex{
+	display: flex;
+	flex-flow: wrap nowrap;
+	justify-content: flex-start;
+}
+
+.logo{
+	float: left;
+	margin: 1%;
+
+}
+
+.tituloInicial{
+	font-family: 'Bangers', cursive;
+	font-size: 150%;
+	color: $rosa;
+}
+
+
+
+
+
+/****** ARTICLE ******/
+
+#papaMovilidad{
+	width: 100%;
+	height: 300px;
+	padding: 1%;
+	margin-bottom: 6%;
+}
+
+#papaHoteles{
+	width: 50%;
+	height: 350px;
+	float: left;
+	padding: 1%;
+	margin-bottom: 3%;
+}
+
+#tioHoteles{
+	width: 50%;
+	height: 350px;
+	float: right;
+	padding: 1%;
+	margin-bottom: 3%;
+}
+
+
+#papaImperdibles{
+	width: 100%;
+	height: 300px;
+	padding: 1%;
+	margin-bottom: 6%;
+}
+
+
+.imagenes{
+	width: 50%;
+	float: left;
+	padding: 2%;
+
+}
+
+.texto{
+	width: 50%;
+	float: right;
+	padding: 2%;
+	word-wrap: break-word;
+}
+
+
+.espacio{
+	height: 40vh;
+}
+
+
+.alaDere{
+	float: right;
+	padding-right: 6%;
+}
+
+
+
+
+/****** FOOTER ******/
+
+.contacto{
+	width: 25%;
+	height: 80vh;
+	margin-left: 10%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	background-color: rgba(99, 110, 114,0.8);
+	border-style: solid;
+}
+
+.formu{
+	width: 70%;
+	float: left;
+}
+
+
+.boton{
+	width: 30%;
+	height: 4vh;
+
+}
+
+
+.redes{
+		width: 30%;
+ 		float: right;
+	li{
+		list-style-type: none;
+		display: inline-block;
+		margin-right: 5%;
+		float: right;
+	}
+}
