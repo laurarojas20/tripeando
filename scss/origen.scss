@@ -1,3 +1,13 @@
-@import "colores"
-@import "estructura"
-@import "mediaqueries"
+@import "estructura";
+@import "menus";
+@import "texto";
+@import "animaciones";
+@import "responsive";
+
+/*UNIVERSALES*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}

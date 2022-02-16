@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Oswald:wght@300&family=Pathway+Gothic+One&display=swap');
+
+$rosa: #d81289;
+$carmesi: #ED4C67; 
+$blanco: #ecf0f1; 
+
+$pathway: 'Pathway Gothic One', sans-serif;
+$oswald: 'Oswald', sans-serif; 
+
+
+h3{
+	color: $rosa;
+}
+
+h4{
+	color: $carmesi;
+	font-size: 20px;
+}
+
+a{
+	text-decoration: none;
+
+	:hover{
+		color: $blanco;
+	}
+}
+
+p{
+	color: $blanco;
+}
+
+.tit{
+	color: $carmesi;
+	font-size: 20px;
+}
+
+
+.title{
+	color: #ff3838;
+
+}
+
+.text{
+	color: #F8EFBA;
+	font-size: 20px;
+}
+
+.letras{
+	font-size: 18px;
+	color: $carmesi;
+
+}
+
+
+.color{
+	color: $blanco;
+}

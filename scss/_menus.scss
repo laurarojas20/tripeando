@@ -1,0 +1,70 @@
+@import "texto";
+
+/* MENU PRINCIPAL */
+
+#menuFlex {
+	width: 70%;
+	display: flex;
+	flex-flow: wrap nowrap;
+	justify-content: flex-end;
+	align-items: center;
+
+	li{
+		list-style-type: none;
+		font-size: 150%;
+		margin: 2%;
+
+		a{
+			color: $rosa;
+		}
+
+	}
+}
+
+/* MENU SECUNDARIO */
+
+.largo{
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: center;
+
+	div{
+		a{
+			color: black;
+
+		}
+	}
+}
+
+
+.propMenu{
+	width: 12%;
+	margin: 2%;
+	padding: 2%;
+	text-align: center;
+	font-size: 20px;
+	color: #000;
+	background-color: rgb(7, 153, 146, 0.6);	
+}
+
+
+.argentinaSection{
+	background-image: url(../imagenes/fondoBanAr.jpg);
+	background-size: contain;
+}
+
+.brasilSection{
+	background-image: url(../imagenes/fondoBanbr.jpg);
+	background-size: contain;
+}
+
+.colombiaSection{
+	background-image: url(../imagenes/fondoBancol.jpg);
+	background-size: contain;
+}
+
+.mexicoSection{
+	background-image: url(../imagenes/fondoBanmexx.jpg);
+	background-size: contain;
+}
+
