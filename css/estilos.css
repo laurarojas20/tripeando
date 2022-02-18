@@ -5,7 +5,6 @@ h3 {
   color: #d81289;
 }
 
-
 h4 {
   color: #ED4C67;
   font-size: 20px;
@@ -170,6 +169,19 @@ footer a {
 }
 
 .texto {
+  width: 50%;
+  float: right;
+  padding: 2%;
+  word-wrap: break-word;
+}
+
+.imagenesImper {
+  width: 50%;
+  float: left;
+  padding: 2%;
+}
+
+.textoImper {
   width: 50%;
   float: right;
   padding: 2%;
@@ -457,19 +469,21 @@ p {
 
   #papaImperdibles {
     width: 100%;
+    height: 300px;
     padding: 1%;
     margin-bottom: 6%;
   }
 
   #papaHoteles {
     width: 100%;
-    height: 450px;
+    height: 350px;
     padding: 1%;
     margin-bottom: 3%;
   }
 
   #tioHoteles {
     width: 100%;
+    height: 450px;
     padding: 1%;
     margin-bottom: 3%;
   }
@@ -478,7 +492,17 @@ p {
     width: 100%;
     height: 450px;
     padding: 1%;
-    margin-bottom: 6%;
+  }
+
+  .imagenesImper {
+    width: 100%;
+    padding: 2%;
+  }
+
+  .textoImper {
+    width: 100%;
+    padding: 2%;
+    word-wrap: break-word;
   }
 }
 @media (min-width: 481px) and (max-width: 720px) {
@@ -521,6 +545,16 @@ p {
   }
 
   .texto {
+    width: 100%;
+    padding: 2%;
+  }
+
+  .imagenesImper {
+    width: 100%;
+    padding: 2%;
+  }
+
+  .textoImper {
     width: 100%;
     padding: 2%;
   }
@@ -597,11 +631,13 @@ p {
   /*CONTENIDO*/
   #papaHoteles {
     width: 100%;
+    height: 550px;
     padding: 1%;
   }
 
   #tioHoteles {
     width: 100%;
+    height: 550px;
     padding: 1%;
   }
 
@@ -617,6 +653,16 @@ p {
   }
 
   .texto {
+    width: 100%;
+    padding: 2%;
+  }
+
+  .imagenesImper {
+    width: 100%;
+    padding: 2%;
+  }
+
+  .textoImper {
     width: 100%;
     padding: 2%;
   }
