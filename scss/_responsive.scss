@@ -1,6 +1,7 @@
+@import "estructura";
+
 /*DESKTOP*/
 @media (min-width:  1024px) {
-
 
 /*GRID AREAS INTERNAS*/
 
@@ -26,19 +27,19 @@
 	border-style: solid;
 }
 
-#papaImperdibles{
+.probando{
 	width: 100%;
 	height: 350px;
 	padding: 1%;
 	margin-bottom: 6%;
 }
 
-
-
+#papaImperdibles{
+	@extend .probando;
 }
 
 
-
+}
 
 
 
@@ -110,37 +111,34 @@
 	border-style: solid;
 }
 
-#papaImperdibles{
-	width: 100%;
-	height: 300px;
-	padding: 1%;
-	margin-bottom: 6%;
+
+@mixin padres($ancho, $alto, $padding, $margin){
+	width: $ancho;
+	height: $alto;
+	padding: $padding;
+	margin-bottom: $margin;	
 }
 
+#papaImperdibles{
+	@include padres(100%, 300px, 1%, 6%);
+}
+
+
 #papaHoteles{
-	width: 100%;
-	height: 350px;
-	padding: 1%;
-	margin-bottom: 3%;
+	@include padres(100%, 350px, 1%, 3%);
 }
 
 #tioHoteles{
-	width: 100%;
-	height: 450px;
-	padding: 1%;
-	margin-bottom: 3%;
+	@include padres(100%, 450px, 1%, 3%);
 }
 
 #papaMovilidad{
-	width: 100%;
-	height: 450px;
-	padding: 1%;
+	@include padres(100%, 450px, 1%, 0%);
 }
 
 .imagenesImper{
 	width: 100%;
 	padding: 2%;
-
 }
 
 .textoImper{
@@ -196,32 +194,45 @@
 	background-color: rgb(7, 153, 146, 0.6);	
 }
 
-#papaImperdibles{
+@mixin padres($ancho, $alto, $padding, $margin){
+	width: $ancho;
+	height: $alto;
+	padding: $padding;
+	margin-bottom: $margin;	
+}
+
+#papaImperdibles{ 
+	@include padres(100%, 350px, 1%, 0%);
+}
+
+#papaHoteles{
+	@include padres(100%, 680px, 1%, 1%);
+}
+
+
+#tioHoteles{
+	@include padres(100%, 680px, 1%, 1%);
+}
+
+.smart{
 	width: 100%;
-	height: 350px;
-	padding: 1%;
+	padding: 2%;
 }
 
 .imagenes{
-	width: 100%;
-	padding: 2%;
-
+	@extend .smart;
 }
 
 .texto{
-	width: 100%;
-	padding: 2%;
+	@extend .smart;
 }
 
 .imagenesImper{
-	width: 100%;
-	padding: 2%;
-
+	@extend .smart;
 }
 
 .textoImper{
-	width: 100%;
-	padding: 2%;
+	@extend .smart;
 }
 
 .contacto{
@@ -235,19 +246,7 @@
 }
 
 
-#papaHoteles{
-	width: 100%;
-	height: 680px;
-	padding: 1%;
-	margin-bottom: 1%;
-}
 
-#tioHoteles{
-	width: 100%;
-	height: 680px;
-	padding: 1%;
-	margin-bottom: 1%;
-}
 	
 }
 
@@ -286,15 +285,6 @@
 
  }
 
-
-.foto2{
-	display: none;
-}
-
-.foto3{
-	width: 100%;
-}
-
 .tituloInicial{
 	font-family: 'Bangers', cursive;
 	font-size: 200%;
@@ -316,45 +306,44 @@
 
 /*CONTENIDO*/
 
+@mixin padres($ancho, $alto, $padding){
+	width: $ancho;
+	height: $alto;
+	padding: $padding;	
+}
+
 #papaHoteles{
-	width: 100%;
-	height: 550px;
-	padding: 1%;
+	@include padres(100%, 550px, 1%);
 }
 
 #tioHoteles{
-	width: 100%;
-	height: 550px;
-	padding: 1%;
+	@include padres(100%, 550px, 1%);
 }
 
 #papaImperdibles{
-	width: 100%;
-	height: 300px;
-	padding: 1%;
+	@include padres(100%, 300px, 1%);
 }
 
 
-.imagenes{
+.smartDos{
 	width: 100%;
 	padding: 2%;
+}
 
+.imagenes{
+	@extend .smartDos;
 }
 
 .texto{
-	width: 100%;
-	padding: 2%;
+	@extend .smartDos;
 }
 
 .imagenesImper{
-	width: 100%;
-	padding: 2%;
-
+	@extend .smartDos;
 }
 
 .textoImper{
-	width: 100%;
-	padding: 2%;
+	@extend .smartDos;
 }
 
 .contacto{

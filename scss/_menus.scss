@@ -48,23 +48,33 @@
 }
 
 
+/****** MAPA ******/
+
+$menuSecu : (
+	argentina: url(../imagenes/fondoBanAr.jpg),
+	brasil:  url(../imagenes/fondoBanbr.jpg),
+	colombia: url(../imagenes/fondoBancol.jpg),
+	mexico: url(../imagenes/fondoBanmexx.jpg),
+);
+
+
 .argentinaSection{
-	background-image: url(../imagenes/fondoBanAr.jpg);
+	background-image: map-get($menuSecu, argentina);
 	background-size: contain;
 }
 
 .brasilSection{
-	background-image: url(../imagenes/fondoBanbr.jpg);
+	background-image: map-get($menuSecu, brasil);
 	background-size: contain;
 }
 
 .colombiaSection{
-	background-image: url(../imagenes/fondoBancol.jpg);
+	background-image: map-get($menuSecu, colombia);
 	background-size: contain;
 }
 
 .mexicoSection{
-	background-image: url(../imagenes/fondoBanmexx.jpg);
+	background-image: map-get($menuSecu, mexico);
 	background-size: contain;
 }
 
