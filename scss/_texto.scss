@@ -8,15 +8,6 @@ $pathway: 'Pathway Gothic One', sans-serif;
 $oswald: 'Oswald', sans-serif; 
 
 
-h3{
-	color: $rosa;
-}
-
-h4{
-	color: $carmesi;
-	font-size: 20px;
-}
-
 a{
 	text-decoration: none;
 
@@ -36,6 +27,7 @@ p{
 
 
 .title{
+	font-size: 30px;
 	color: #ff3838;
 
 }
@@ -50,7 +42,6 @@ p{
 	color: $carmesi;
 
 }
-
 
 .color{
 	color: $blanco;
