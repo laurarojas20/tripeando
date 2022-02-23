@@ -7,6 +7,9 @@ $blanco: #ecf0f1;
 $pathway: 'Pathway Gothic One', sans-serif;
 $oswald: 'Oswald', sans-serif; 
 
+h1{
+	color: $rosa; 
+}
 
 h3{
 	color: $rosa;
@@ -37,7 +40,7 @@ p{
 
 .title{
 	color: #ff3838;
-
+	font-size: 20px;
 }
 
 .text{
