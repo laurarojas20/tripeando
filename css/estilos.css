@@ -2,15 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bangers&family=Oswald:wght@300&family=Pathway+Gothic+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bangers&family=Oswald:wght@300&family=Pathway+Gothic+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bangers&family=Oswald:wght@300&family=Pathway+Gothic+One&display=swap");
-h3 {
-  color: #d81289;
-}
-
-h4 {
-  color: #ED4C67;
-  font-size: 20px;
-}
-
 a {
   text-decoration: none;
 }
@@ -28,6 +19,7 @@ p {
 }
 
 .title {
+  font-size: 30px;
   color: #ff3838;
 }
 
@@ -206,15 +198,6 @@ footer a {
   float: right;
 }
 
-h3 {
-  color: #d81289;
-}
-
-h4 {
-  color: #ED4C67;
-  font-size: 20px;
-}
-
 a {
   text-decoration: none;
 }
@@ -232,6 +215,7 @@ p {
 }
 
 .title {
+  font-size: 30px;
   color: #ff3838;
 }
 
@@ -307,15 +291,6 @@ p {
   background-size: contain;
 }
 
-h3 {
-  color: #d81289;
-}
-
-h4 {
-  color: #ED4C67;
-  font-size: 20px;
-}
-
 a {
   text-decoration: none;
 }
@@ -333,6 +308,7 @@ p {
 }
 
 .title {
+  font-size: 30px;
   color: #ff3838;
 }
 
@@ -367,15 +343,6 @@ p {
     opacity: 1;
   }
 }
-h3 {
-  color: #d81289;
-}
-
-h4 {
-  color: #ED4C67;
-  font-size: 20px;
-}
-
 a {
   text-decoration: none;
 }
@@ -393,6 +360,7 @@ p {
 }
 
 .title {
+  font-size: 30px;
   color: #ff3838;
 }
 
