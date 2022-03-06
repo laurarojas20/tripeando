@@ -182,12 +182,42 @@ footer{
 
 .contacto{
 	width: 25%;
-	height: 80vh;
+	height: 90vh;
+	padding: 2%;
 	margin-left: 10%;
 	margin-top: 2%;
 	margin-bottom: 2%;
 	background-color: rgba(99, 110, 114,0.8);
 	border-style: solid;
+	float: left;
+}
+
+.empleo{
+	width: 50%;
+	height: 90vh;
+	margin-left: 5%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	float: right;
+}
+
+.diCaprio{
+	text-align: center;
+}
+
+.trabajo{
+	height: 60vh;
+	padding-top: 5%;
+	padding-left: 10%;
+}
+
+.imagenesFormu{
+	@extend .imagenes;
+}
+
+.textoFormu{
+	@extend .texto; 
+	padding-top: 10%;
 }
 
 .formu{
@@ -200,6 +230,24 @@ footer{
 	width: 30%;
 	height: 4vh;
 
+}
+
+input[type=text] {
+	width: 70%;
+	margin: 1%;
+	padding: 1%; 
+}
+
+input[type=email] {
+	width: 70%;
+	margin: 1%;
+	padding: 1%; 
+}
+
+textarea {
+	width: 90%;
+	margin: 2%;
+	padding: 1%;
 }
 
 
