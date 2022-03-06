@@ -168,8 +168,6 @@ footer a {
 
 /****** FOOTER ******/
 .contacto {
-  width: 25%;
-  height: 90vh;
   padding: 2%;
   margin-left: 10%;
   margin-top: 2%;
@@ -552,8 +550,6 @@ footer a {
 
 /****** FOOTER ******/
 .contacto {
-  width: 25%;
-  height: 90vh;
   padding: 2%;
   margin-left: 10%;
   margin-top: 2%;
@@ -637,7 +633,6 @@ textarea {
 
   .contacto {
     width: 35%;
-    height: 90vh;
     margin-left: 10%;
     margin-top: 2%;
     margin-bottom: 2%;
@@ -695,7 +690,6 @@ textarea {
 
   .contacto {
     width: 45%;
-    height: 90vh;
     margin-left: 5%;
     margin-top: 2%;
     margin-bottom: 2%;
@@ -816,7 +810,6 @@ textarea {
 
   .contacto {
     width: 80%;
-    height: 90vh;
     margin-left: 10%;
     margin-top: 2%;
     margin-bottom: 2%;
@@ -904,7 +897,6 @@ textarea {
 
   .contacto {
     width: 80%;
-    height: 90vh;
     margin-left: 10%;
     margin-top: 2%;
     margin-bottom: 2%;
