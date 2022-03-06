@@ -145,13 +145,13 @@ footer a {
 }
 
 /****** MIXINS ******/
-.imagenes, .imagenesImper {
+.imagenes, .imagenesFormu, .imagenesImper {
   width: 50%;
   float: left;
   padding: 2%;
 }
 
-.texto, .textoImper {
+.texto, .textoFormu, .textoImper {
   width: 50%;
   float: right;
   padding: 2%;
@@ -169,12 +169,37 @@ footer a {
 /****** FOOTER ******/
 .contacto {
   width: 25%;
-  height: 80vh;
+  height: 90vh;
+  padding: 2%;
   margin-left: 10%;
   margin-top: 2%;
   margin-bottom: 2%;
   background-color: rgba(99, 110, 114, 0.8);
   border-style: solid;
+  float: left;
+}
+
+.empleo {
+  width: 50%;
+  height: 90vh;
+  margin-left: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  float: right;
+}
+
+.diCaprio {
+  text-align: center;
+}
+
+.trabajo {
+  height: 60vh;
+  padding-top: 5%;
+  padding-left: 10%;
+}
+
+.textoFormu {
+  padding-top: 10%;
 }
 
 .formu {
@@ -185,6 +210,24 @@ footer a {
 .boton {
   width: 30%;
   height: 4vh;
+}
+
+input[type=text] {
+  width: 70%;
+  margin: 1%;
+  padding: 1%;
+}
+
+input[type=email] {
+  width: 70%;
+  margin: 1%;
+  padding: 1%;
+}
+
+textarea {
+  width: 90%;
+  margin: 2%;
+  padding: 1%;
 }
 
 .redes {
@@ -486,13 +529,13 @@ footer a {
 }
 
 /****** MIXINS ******/
-.imagenes, .imagenesImper {
+.imagenes, .imagenesImper, .imagenesFormu {
   width: 50%;
   float: left;
   padding: 2%;
 }
 
-.texto, .textoImper {
+.texto, .textoImper, .textoFormu {
   width: 50%;
   float: right;
   padding: 2%;
@@ -510,12 +553,37 @@ footer a {
 /****** FOOTER ******/
 .contacto {
   width: 25%;
-  height: 80vh;
+  height: 90vh;
+  padding: 2%;
   margin-left: 10%;
   margin-top: 2%;
   margin-bottom: 2%;
   background-color: rgba(99, 110, 114, 0.8);
   border-style: solid;
+  float: left;
+}
+
+.empleo {
+  width: 50%;
+  height: 90vh;
+  margin-left: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  float: right;
+}
+
+.diCaprio {
+  text-align: center;
+}
+
+.trabajo {
+  height: 60vh;
+  padding-top: 5%;
+  padding-left: 10%;
+}
+
+.textoFormu {
+  padding-top: 10%;
 }
 
 .formu {
@@ -526,6 +594,24 @@ footer a {
 .boton {
   width: 30%;
   height: 4vh;
+}
+
+input[type=text] {
+  width: 70%;
+  margin: 1%;
+  padding: 1%;
+}
+
+input[type=email] {
+  width: 70%;
+  margin: 1%;
+  padding: 1%;
+}
+
+textarea {
+  width: 90%;
+  margin: 2%;
+  padding: 1%;
 }
 
 .redes {
@@ -551,7 +637,7 @@ footer a {
 
   .contacto {
     width: 35%;
-    height: 80vh;
+    height: 90vh;
     margin-left: 10%;
     margin-top: 2%;
     margin-bottom: 2%;
@@ -608,13 +694,31 @@ footer a {
   }
 
   .contacto {
-    width: 50%;
-    height: 90vh;
-    margin-left: 10%;
+    width: 45%;
+    height: 80vh;
+    margin-left: 5%;
     margin-top: 2%;
     margin-bottom: 2%;
     background-color: rgba(99, 110, 114, 0.8);
     border-style: solid;
+  }
+
+  .empleo {
+    width: 45%;
+    height: 90vh;
+    margin-left: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    float: right;
+  }
+
+  .imagenesFormu {
+    margin-top: 10%;
+    width: 100%;
+  }
+
+  .textoFormu {
+    width: 100%;
   }
 
   #papaImperdibles {
@@ -705,19 +809,36 @@ footer a {
     margin-bottom: 1%;
   }
 
-  .smart, .texto, .textoImper, .imagenes, .imagenesImper {
+  .smart, .texto, .textoImper, .textoFormu, .imagenes, .imagenesImper, .imagenesFormu {
     width: 100%;
     padding: 2%;
   }
 
   .contacto {
     width: 80%;
-    height: 90vh;
+    height: 80vh;
     margin-left: 10%;
     margin-top: 2%;
     margin-bottom: 2%;
     background-color: rgba(99, 110, 114, 0.8);
     border-style: solid;
+  }
+
+  .empleo {
+    width: 100%;
+    height: 90vh;
+    margin-left: 1%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    float: right;
+  }
+
+  .imagenesFormu {
+    width: 100%;
+  }
+
+  .textoFormu {
+    width: 100%;
   }
 }
 /*SMARTHPHONE*/
@@ -776,19 +897,36 @@ footer a {
     padding: 1%;
   }
 
-  .smartDos, .texto, .textoImper, .imagenes, .imagenesImper {
+  .smartDos, .texto, .textoImper, .textoFormu, .imagenes, .imagenesImper, .imagenesFormu {
     width: 100%;
     padding: 2%;
   }
 
   .contacto {
     width: 80%;
-    height: 90vh;
+    height: 80vh;
     margin-left: 10%;
     margin-top: 2%;
     margin-bottom: 2%;
     background-color: rgba(99, 110, 114, 0.8);
     border-style: solid;
+  }
+
+  .empleo {
+    width: 100%;
+    height: 80vh;
+    margin-left: 1%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    float: right;
+  }
+
+  .imagenesFormu {
+    width: 100%;
+  }
+
+  .textoFormu {
+    width: 100%;
   }
 }
 /*UNIVERSALES*/
