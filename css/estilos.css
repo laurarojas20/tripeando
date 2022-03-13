@@ -677,44 +677,6 @@ textarea {
   .textoFormu {
     width: 100%;
   }
-
-  #papaImperdibles {
-    width: 100%;
-    height: 550px;
-    padding: 1%;
-    margin-bottom: 6%;
-  }
-
-  #papaHoteles, #tioHoteles {
-    width: 100%;
-    height: 350px;
-    padding: 1%;
-    margin-bottom: 3%;
-  }
-
-  #tioHoteles {
-    width: 100%;
-    height: 450px;
-    padding: 1%;
-    margin-bottom: 3%;
-  }
-
-  #papaMovilidad, #papaImperdibles {
-    width: 100%;
-    height: 450px;
-    padding: 1%;
-    margin-bottom: 0%;
-  }
-
-  .imagenesImper {
-    width: 50%;
-    padding: 2%;
-  }
-
-  .textoImper {
-    width: 50%;
-    padding: 2%;
-  }
 }
 /*TABLET*/
 @media (min-width: 721px) and (max-width: 1023px) {
